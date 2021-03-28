@@ -1,0 +1,38 @@
+.top-section {
+	grid-area: top;
+	text-align: left;
+	background-color: #fff;
+	padding: 2rem;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+
+	h3 {
+		color: $clr-prim-Cyan;
+		margin-bottom: 2rem;
+		font-weight: 600;
+		@media screen and(min-width: 768px) {
+			margin-bottom: 1.5rem;
+			font-size: 1.75rem;
+		}
+	}
+
+	&__sub {
+		color: $clr-prim-BrightYellow;
+		margin-bottom: 1.625rem;
+		font-weight: 600;
+		@media screen and(min-width: 768px) {
+			margin-bottom: 1.125rem;
+			font-size: 1.25rem;
+		}
+	}
+
+	&__detail {
+		color: $clr-neut-GrayishBlue;
+		font-weight: 400;
+		font-size: 1rem;
+		line-height: 1.6;
+		max-width: 60ch;
+		margin: 0;
+		padding: 0;
+	}
+}

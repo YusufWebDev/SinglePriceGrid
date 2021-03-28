@@ -1,0 +1,29 @@
+.bottom-section {
+	grid-area: bot;
+	text-align: left;
+	background-color: $clr-prim-Cyan;
+	padding: 1.875rem 2rem;
+	border-bottom-left-radius: 0.3rem;
+	border-bottom-right-radius: 0.3rem;
+
+	@media screen and(min-width: 768px) {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0.3rem;
+	}
+
+	h3 {
+		color: $clr-neut-LightGray;
+		margin: 0;
+		margin-bottom: 1rem;
+		padding: 0;
+		font-weight: 600;
+	}
+
+	p {
+		color: $clr-neut-LightGray;
+		font-weight: 400;
+		font-size: 0.85rem;
+		line-height: 1.9;
+		max-width: 60ch;
+	}
+}
